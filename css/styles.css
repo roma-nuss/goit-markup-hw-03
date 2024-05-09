@@ -247,6 +247,14 @@ line-height: 1.5;
 text-align: center;
 }
 
+/* ===================
+---Portfolio-section---
+=====================*/
+
+.portfolio-section {
+  padding: 120px 0 120px 0;
+}
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -254,6 +262,14 @@ text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color:#2e2f42 ;
+  margin-bottom: 72px; 
+}
+
+.portfolio-menu {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-subtitle {
