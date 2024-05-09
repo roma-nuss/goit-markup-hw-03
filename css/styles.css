@@ -44,6 +44,14 @@ img {
   color: #2e2f42; 
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
 
 /* ===================
 --------Header--------
@@ -149,12 +157,30 @@ img {
   background-color: #404BBF;
 } 
 
+/* ===================
+---Advantages-section---
+=====================*/
+
+.advantages {
+  padding: 120px 0;
+}
+
+.advantages-menu {
+  display: flex;
+  gap: 24px;
+}
+
+.advantages-menu-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .advantages-title{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .advantages-text {
